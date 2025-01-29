@@ -1,0 +1,63 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background-color: hsl(0, 0%, 15%);
+}
+
+h1{
+  color: white;
+  text-align: center;
+  margin-top: 15%;
+  padding: 1rem;
+}
+.counter-container{
+background-color: aliceblue;
+max-width: fit-content;
+max-height: fit-content;
+margin: 0 auto;
+padding: 1rem;
+border-radius: 10px;
+}
+
+.count-display{
+  font-size: 3rem;
+  text-align: center;
+}
+.button-decrement{
+  padding:0.5rem;
+  outline: none;
+  border: none;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+  margin:0 0.3rem;
+  border-radius: 10px;
+  background-color: hsl(240, 87%, 75%);
+  color: white;
+  cursor: pointer;
+}
+.button-increment{
+  padding:0.5rem;
+  outline: none;
+  border: none;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+  margin:0 0.3rem;
+  border-radius: 10px;
+  background-color: hsl(152, 31%, 57%);
+  color: white;
+  cursor: pointer;
+}
+.button-reset{
+  padding:0.5rem;
+  outline: none;
+  border: none;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.4);
+  margin:0 1rem;
+  border-radius: 10px;
+  background-color: hsl(0, 95%, 61%);
+  color: white;
+  cursor: pointer;
+}

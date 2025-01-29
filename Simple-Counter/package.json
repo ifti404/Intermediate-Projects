@@ -1,5 +1,5 @@
-{ "homepage": "https://ifti404.github.io/React-Cards",
-  "name": "vite-project",
+{
+  "name": "first-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
